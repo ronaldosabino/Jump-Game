@@ -12,7 +12,6 @@
     position: relative; /* tentar no portfolio */
     overflow: hidden; /*o que está fora do game board não aparece na tela*/
     background: linear-gradient(#87CEEB, #E0F6FF);
-    transform: rotate(90deg);
 }
 
 .pipe{
@@ -93,13 +92,3 @@
     }
 
 }
-
-/* @media screen and (max-width: 450px) {
-
-    .game-board {
-        transform: rotate(90deg);
-    }
-
-
-
-} */
