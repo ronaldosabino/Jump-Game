@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'VT323', monospace;
+    color: #fff;
+}
+
+header{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+header h1 {
+    font-size: 5rem;
+    padding-bottom: 3rem;
+}
+
+header h2 {
+    padding-bottom: 1rem;
+}
+
+.back-ground {
+    background-color: #000;
+    height: 100vh;
+    width: 100%;
+}
+
+
+.select {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 5rem;
+
+}
+
+.select img {
+    width: 200px;
+    height: 200px;
+}
+
+.cards {
+    background-color: transparent;
+    border: solid 5px grey;
+    transition: 0.5s;
+}
+
+.cards a{
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.cards.sonic:hover {
+    border: solid 5px #fff;
+    background-color: blue;
+}
+
+.cards.mario:hover {
+    border: solid 5px #fff;
+    background-color: red;
+}
