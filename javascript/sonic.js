@@ -4,9 +4,6 @@ const pipe = document.querySelector('.pipe');
 const start = document.querySelector('.start');
 const gameOver = document.querySelector('.game-over')
 
-audioStart = new Audio('./src/audio/audio_theme.mp3')
-audioGameOver = new Audio('./src/audio/audio_gameover.mp3')
-
 const jump = () => {
     //adicionando a classe jump
     sonic.classList.add('jump');
@@ -21,11 +18,6 @@ const loop = setInterval(() => {
 
     const pipePosition = pipe.offsetLeft;
     const sonicPosition = +window.getComputedStyle(sonic).bottom.replace('px', '');
-
-
-    // if (jump) {
-    //     sonic.src = 'img/sonic2.webp' 
-    // }
 
     if (pipePosition <= 110 && pipePosition > 0 && sonicPosition < 80) {
 

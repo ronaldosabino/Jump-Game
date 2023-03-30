@@ -14,6 +14,18 @@
     background: linear-gradient(#87CEEB, #E0F6FF);
 }
 
+.buttons{
+    position: absolute;
+    padding-left: 1rem;
+    padding: 1rem;
+}
+
+.buttons a{
+    text-decoration: none;
+    color: #000;
+    font-size: 1.4rem;
+}
+
 .pipe{
     /* definir todas as imagens como absolute para que nenhuma interfira na outra */
     position: absolute;
