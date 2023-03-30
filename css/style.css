@@ -42,13 +42,13 @@ header h2 {
 }
 
 .select img {
-    width: 200px;
-    height: 200px;
+    width: 160px;
+    height: 160px;
 }
 
 .cards {
     background-color: transparent;
-    border: solid 5px grey;
+    border: dashed 5px grey;
     transition: 0.5s;
 }
 
@@ -58,11 +58,11 @@ header h2 {
 }
 
 .cards.sonic:hover {
-    border: solid 5px #fff;
+    border: dashed 5px #fff;
     background-color: blue;
 }
 
 .cards.mario:hover {
-    border: solid 5px #fff;
+    border: dashed 5px #fff;
     background-color: red;
 }

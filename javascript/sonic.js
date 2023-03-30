@@ -19,7 +19,7 @@ const loop = setInterval(() => {
     const pipePosition = pipe.offsetLeft;
     const sonicPosition = +window.getComputedStyle(sonic).bottom.replace('px', '');
 
-    if (pipePosition <= 110 && pipePosition > 0 && sonicPosition < 80) {
+    if (pipePosition <= 120 && pipePosition > 0 && sonicPosition < 80) {
 
         pipe.style.animation = 'none';
         pipe.style.left = `${pipePosition}px`;
@@ -27,6 +27,7 @@ const loop = setInterval(() => {
         sonic.style.animation = 'none';
         sonic.style.bottom = `${sonicPosition}px`;
 
+        //trocando imagem
         sonic.src = 'img/sonic-game-over.png'
         sonic.style.width = '140px'
         sonic.style.height= '140px'
